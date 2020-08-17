@@ -6,7 +6,7 @@
 }
 #home
 {
- background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(media/cover.jpg);
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(cover.jpg);
  height: 100vh;
  background-size: cover;
  background-position: center;
@@ -58,7 +58,7 @@ h1
 
 #about
 {
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/about.png);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(about.png);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -93,7 +93,7 @@ th, td {
 
 #contact
 {
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/contact.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(contact.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -158,7 +158,7 @@ input[type=submit]:hover {
 }
 #portfolio
 {
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/grey.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(grey.jpg);
 	display: flex;
 	justify-content: space-around;
 	padding: 10px;
