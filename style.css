@@ -1,0 +1,239 @@
+*
+{
+ font-family: 'Raleway', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+#home
+{
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(media/cover.jpg);
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+
+}
+.topnav {
+  width: 100%;
+  margin-top: 20px;
+  background-color: none;
+  text-align: center;
+  position: fixed;
+}
+
+.topnav a {
+  float: none;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.topnav a:hover {
+  border: 1px solid white;
+  transition: color .3s ease-in-out;
+  color: white;
+}
+
+
+.greetings
+{
+  position: absolute;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 100px;
+}
+h1
+{
+  float:none;
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center; 
+  margin-top: 100px;
+  vertical-align:middle;
+}
+
+#about
+{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/about.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+table
+{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 350px;
+}
+
+th, td {
+  border: 0.5px solid white;
+  color: white;
+  padding: 15px;
+}
+
+.me
+{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 500px;  
+}
+
+.me p
+{
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+#contact
+{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/contact.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.contactform
+{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 300px;
+  text-align: center;
+}
+
+input[type=text],input[type=email],input[type=date],textarea
+{
+  position: relative;
+  width: 200px;
+  padding: 14px;
+  border: 1px solid white; 
+  border-radius: 4px;
+  margin-bottom: 10px;
+  float:left;
+}
+
+
+label
+{
+  color: white;
+  float: left;
+  padding: 12px;
+}
+#email
+{
+  margin-left: 39px;
+}
+#subject
+{
+  margin-left: 30px;
+}
+#date
+{
+  margin-left: 50px;
+}
+input[type=submit] 
+{
+  background: none;
+  color: white;
+  position: relative;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  border: 1px solid white;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  transition: color .2s ease-in-out;
+}
+#portfolio
+{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(media/grey.jpg);
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	font-weight: bolder;
+	height: 100vh;
+ 	background-size: cover;
+        background-position: center;
+}
+.content
+{	postition: absolute;
+ 	margin-top: 150px;
+	display: flex;
+	flex-flow: column;
+	padding: 10px;
+	
+}
+
+#port
+{
+ 	border-radius: 10px;
+}
+
+.content p
+{
+	margin-top: 10px;
+	color: white;
+	font-size: 16px;
+	padding: 14px;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+.social
+{
+	position: absolute;
+	margin-top: 600px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-facebook-square:hover {
+  color: #3B5998;
+}
+.fa-twitter-square:hover {
+  color: #55ACEE;
+}
+.fa-phone-square:hover
+{
+  color: #6BE24A;
+}
+.fa-envelope:hover
+{
+  color: #F88A07;
+}
+
+#footer
+{
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  padding: 15px;
+  width: 100vh;
+  height:15px;
+  margin-left: 320px;
+  
+}
+
+
+
+
